@@ -47,7 +47,11 @@ body{
 .cell:nth-child(9){
   border-right:none}
 
+.cell.x::before,
+.cell.x::after
 
+/* mensagem de vitória
+*/
 .winning-message{
  display: none;
 }
